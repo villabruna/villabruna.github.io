@@ -4,16 +4,19 @@
 ### set up your website you should go through all these settings and edit them, but after
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
+# move the blog to a different page
+
+paginate_path: "/News/page:num/"
 
 ############################
 # --- Required options --- #
 ############################
 
 # Name of website
-title: My Website
+title: Dr. Nele Villabruna
 
 # Your name to show in the footer
-author: Some Person
+author: Nele Villabrunan
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +24,9 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Research:
+    - Erasmus: "https://www.erasmusmc.nl/en/research/departments/viroscience"
+  Another nice website: "https://jeremias-brand.github.io/"
 
 ################
 # --- Logo --- #
@@ -42,6 +44,7 @@ round-avatar: true
 #title-img: /path/to/image
 
 
+
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -50,12 +53,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  rss: false  # remove this line if you don't want to show an RSS link at the bottom
+#  facebook: deanattali
+#  github: daattali
+  twitter: nelevillabruna
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -79,7 +82,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: My personal website
 
 ###########################
 # --- General options --- #
@@ -94,7 +97,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "villabruna"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
