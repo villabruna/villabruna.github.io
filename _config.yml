@@ -23,11 +23,10 @@ author: Nele Villabruna
 ###############################################
 
 navbar-links:
-  My Research: "aboutme"
-  Research:
-    - Erasmus: "https://www.erasmusmc.nl/en/research/departments/viroscience"
+  CV: "2022_CV_Villabruna.pdf"
+  Publications: "publications"
   News: "News/index.html"
-  Another nice website: "https://jeremias-brand.github.io/"
+
 
 
 ################
