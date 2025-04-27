@@ -1,9 +1,3 @@
----
-layout: page
-title: Research Interests
-cover-img: /assets/img/HumanGII.4.jpg
----
-
 # Norovirus diversity and host range
 ![Norovirus diversity in human and animal hosts]({{ site.url }}/assets/img/Norovirus_diversity.jpg){:class="img-responsive"}
 
